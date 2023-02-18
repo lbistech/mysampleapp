@@ -7,14 +7,13 @@ mark=$1
 
 if (( $mark >= 90 ))
 then
-	echo "Your Grade is A+"
+        echo "Your Grade is A+"
 elif (( $mark < 90 && $mark >= 80 ))
 then
-	echo "Your Grade is B+"
+        echo "Your Grade is B+"
 elif (( $mark < 80 && $mark >= 70 ))
 then
-	echo "Your Grade is C+"
+        echo "Your Grade is C+"
 else
-	echo "Your are fail"
+        echo "Your are fail"
 fi
-
